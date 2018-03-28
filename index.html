@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Users List</title>
+</head>
+<body>
+    <div id="wrapper" class="borderBox">
+        <div id="header" class="borderBox textCenter bottomBorder">
+            <h1 class="borderBox">Dynamic Users List</h1>
+            <h3 class="borderBox">Add users to the list on the right by adding them with the form on the left</h3>
+        </div>
+        <div id="leftForm" class="borderBox inBlock verTop">
+            <h2 class="borderBox bottomBorder">Add User</h2>
+            <form>
+                <p class="textRight">First Name: <input type="text" placeholder="John"></p>
+                <p class="textRight">Last Name: <input type="text" placeholder="Doe"></p>
+                <p class="textRight">Email Address: <input type="email" placeholder="jdoe@email.com"></p>
+                <p class="textRight">Contact Phone: <input type="tel" placeholder="209-555-1234"></p>
+                <button class="floatRight">Add User</button>
+            </form>
+        </div>
+        <div id="rightTable" class="borderBox inBlock verTop">
+            <table id="userTable">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                    <th>Contact Phone</th>
+                </tr>
+                <tr>
+                    <td class="italic">Sample</th>
+                    <td class="italic">Name</th>
+                    <td class="italic">sample@email.com</th>
+                    <td class="italic">202-555-2222</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

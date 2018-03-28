@@ -1,0 +1,107 @@
+body {
+    background-color: #eaeaea;
+}
+#wrapper {
+    width: 970px;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6, button, table, tbody, thead, tr, th, td, div, span, a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2e2e2e;
+}
+h1 {
+    font-size: 40px;
+    padding: 5px;
+    line-height: 50px;
+    color: red;
+    font-weight: bold;
+}
+h2 {
+    font-size: 20px;
+    padding: 5px;
+    line-height: 30px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 16px;
+    padding: 5px;
+    line-height: 26px;
+    font-style: italic;
+}
+p {
+    font-size: 14px;
+    line-height: 30px;
+}
+button {
+    margin: 10px 0px;
+}
+/* HEADER SECTION */
+#header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+/* FORM SECTION - LEFT SIDE */
+#leftForm {
+    width: 35%;
+    height: 230px;
+    padding: 10px;
+    margin-right: 3px;
+    background-color: #eaeaea;
+}
+form {
+    padding-top: 10px;
+}
+input {
+    padding-left: 3px;
+}
+/* FORM SECTION - RIGHT SIDE */
+#rightTable {
+    width: 64.09%;
+    padding: 10px;
+    background-color: #eaeaea;
+}
+#userTable {
+    width: 100%;
+    vertical-align: middle;
+    border: 1px solid #2e2e2e;
+}
+th {
+    background-color: brown;
+    padding: 4px;
+    color: white;
+    text-align: left;
+    border-right: 1px solid #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+td {
+    background-color: white;
+    padding: 4px;
+    border-right: 1px solid #2e2e2e;
+}
+/* SPECIFIC CLASSES */
+.borderBox {
+    box-sizing: border-box;
+}
+.textCenter {
+    text-align: center;
+}
+.textRight {
+    text-align: right;
+}
+.bottomBorder {
+    border-bottom: 1px solid #2e2e2e
+}
+.floatRight {
+    float: right;
+}
+.inBlock {
+    display: inline-block;
+}
+.verTop {
+    vertical-align: top;
+}
+.italic {
+    font-style: italic;
+}
